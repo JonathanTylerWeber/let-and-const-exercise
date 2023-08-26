@@ -1,0 +1,20 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+const = 3.14
+
+- What is the difference between ***var*** and ***let***?
+var is function scope and can be redeclared, let is block scope and cannot be redeclared
+
+
+- What is the difference between **var** and ***const***?
+var is function scope and can be redeclared and reassigned, const is block scope and cannot be redeclared or reassigned
+
+
+- What is the difference between **let** and **const**?
+let can be reassigned while const cannot
+
+
+- What is hoisting?
+hoisting is when you declare a variable with var and that variable name is loaded first but without the value, so that if you call a variable declared with var before it is declared it will return undefined instead of as a reference error
+
